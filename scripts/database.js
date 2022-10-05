@@ -3,7 +3,7 @@ const API = "http://localhost:8080"
 const applicationState = {
     dogImage: [],
     catImage: [],
-    history: [],
+    feed: [],
     score: []
 }
 
@@ -19,37 +19,37 @@ export const fetchDog = async () => {
     applicationState.dogImage = dogImageResponse
 }
 
-export const fetchHistory = async () => {
-    const history = await fetch(`${API}/history`)
-    const historyResponse = await history.json()
-    applicationState.history = historyResponse
+export const fetchFeed = async () => {
+    const feed = await fetch(`${API}/feed`)
+    const feedResponse = await feed.json()
+    applicationState.feed = feedResponse
 }
 
 export const fetchScore = async () => {
-    const catScore = await fetch(`${API}/history`)
-    const dogScore = await fetch(`${API}/history`)
+    const catScore = await fetch(`${API}/score`)
+    const dogScore = await fetch(`${API}/score`)
     const catScoreResponse = await catScore.json()
     const dogScoreResponse = await dogScore.json()
     applicationState.score = catScoreResponse, dogScoreResponse
 }
 
 
-export const getHistory = () => {
-    const copyOfHistory = applicationState.history.map(history => ({ ...history }))
-    return copyOfHistory
+export const getFeed = () => {
+    const copyOfFeed = applicationState.feed.map(feed => ({ ...feed }))
+    return copyOfFeed
 }
 
-export const addNewHistory = async (history) => {
+export const addNewFeed = async (feed) => {
     const fetchOptions = {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(history)
+        body: JSON.stringify(feed)
     }
-    const response = await fetch(`${API}/history`, fetchOptions)
+    const response = await fetch(`${API}/feed`, fetchOptions)
     const responseJson = await response.json()
     document.dispatchEvent(new CustomEvent("stateChanged"))
     return responseJson
   }
-  
+ 
