@@ -1,11 +1,10 @@
 // render everything
-import { fetchCat, fetchDog, fetchFeed, fetchScore } from "./database.js"
+import { fetchCat, fetchDog, fetchFeed } from "./database.js"
 
 const render = async () => {
     await fetchCat()
     await fetchDog()
     await fetchFeed()
-    await fetchScore()
 }
 
 render()
