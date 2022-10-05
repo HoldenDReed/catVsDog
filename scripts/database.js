@@ -3,8 +3,7 @@ const API = "http://localhost:8080"
 const applicationState = {
     dogImage: [],
     catImage: [],
-    feed: [],
-    score: []
+    feed: []
 }
 
 export const fetchCat = async () => {
@@ -24,15 +23,6 @@ export const fetchFeed = async () => {
     const feedResponse = await feed.json()
     applicationState.feed = feedResponse
 }
-
-export const fetchScore = async () => {
-    const catScore = await fetch(`${API}/score`)
-    const dogScore = await fetch(`${API}/score`)
-    const catScoreResponse = await catScore.json()
-    const dogScoreResponse = await dogScore.json()
-    applicationState.score = catScoreResponse, dogScoreResponse
-}
-
 
 export const getFeed = () => {
     const copyOfFeed = applicationState.feed.map(feed => ({ ...feed }))
