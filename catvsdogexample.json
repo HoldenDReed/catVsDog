@@ -4,6 +4,7 @@
             "id": 1,
             "catId": "JVITS8pXF",
             "catUrl": "https://cdn2.thecatapi.com/images/JVITS8pXF.jpg",
+            "catWin": false,
             "dogId": "4ZHgQqnSr",
             "dogUrl": "https://cdn2.thedogapi.com/images/4ZHgQqnSr.jpg"
         },
@@ -11,6 +12,7 @@
             "id": 2,
             "catId": "0XYvRd7oD",
             "catUrl": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+            "catWin": true,
             "dogId": "kzcMOroSg",
             "dogUrl": "https://cdn2.thedogapi.com/images/kzcMOroSg.jpg"
         }
@@ -23,3 +25,8 @@
         }
     ]
 }
+//put method//
+//const catScore = []
+//const dogScore = []
+// catScore = feed.filter((x) => { return x.catWin})//
+// dogScore = feed.filter((x) => { return !x.catWin})//
