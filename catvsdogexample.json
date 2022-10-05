@@ -1,0 +1,25 @@
+{
+    "feed": [
+        {
+            "id": 1,
+            "catId": "JVITS8pXF",
+            "catUrl": "https://cdn2.thecatapi.com/images/JVITS8pXF.jpg",
+            "dogId": "4ZHgQqnSr",
+            "dogUrl": "https://cdn2.thedogapi.com/images/4ZHgQqnSr.jpg"
+        },
+        {
+            "id": 2,
+            "catId": "0XYvRd7oD",
+            "catUrl": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+            "dogId": "kzcMOroSg",
+            "dogUrl": "https://cdn2.thedogapi.com/images/kzcMOroSg.jpg"
+        }
+    ],
+    "score": [
+        {
+            "id": 1,
+            "catScore": 1,
+            "dogScore": 1
+        }
+    ]
+}
