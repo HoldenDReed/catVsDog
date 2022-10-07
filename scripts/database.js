@@ -29,6 +29,16 @@ export const getFeed = () => {
     return copyOfFeed
 }
 
+export const getRandomCat = () => {
+    const copyOfCat = applicationState.cat.map(cat => ({ ...cat }))
+    return copyOfCat
+}
+
+export const getRandomDog = () => {
+    const copyOfDog = applicationState.dog.map(dog => ({ ...dog }))
+    return copyOfDog
+}
+
 export const addNewFeed = async (feed) => {
     const fetchOptions = {
         method: "POST",
