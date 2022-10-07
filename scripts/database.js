@@ -30,12 +30,12 @@ export const getFeed = () => {
 }
 
 export const getRandomCat = () => {
-    const copyOfCat = applicationState.cat.map(cat => ({ ...cat }))
+    const copyOfCat = applicationState.catImage.map(cat => ({ ...cat }))
     return copyOfCat
 }
 
 export const getRandomDog = () => {
-    const copyOfDog = applicationState.dog.map(dog => ({ ...dog }))
+    const copyOfDog = applicationState.dogImage.map(dog => ({ ...dog }))
     return copyOfDog
 }
 
