@@ -17,7 +17,7 @@ export const randomDog = () => {
     <p>${randomDog[0].id}</p>
     <img src =${randomDog[0].url} alt="randomDog" class="randomDogImage">
     </div>`
-    console.log(dogHTML)
+    
     return dogHTML
     }
 // add button to score with and refresh images
