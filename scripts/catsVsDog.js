@@ -18,8 +18,6 @@ const randomCat = getRandomCat()
     
     return dogHTML
     }
-    document.getElementById("catCard").innerHTML = catHTML
-    document.getElementById("dogCard").innerHTML = dogHTML
 // add button to score with and refresh images
 
 
