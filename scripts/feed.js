@@ -4,15 +4,16 @@ import { getFeed } from "./database.js";
 
 export const displayFeed = () => {
     const feed = getFeed()
-    for (let i = 0; i < feed.length; i++) {
+    let html = ""
+    feed.forEach(entry => {
         html += `
     <div class = "dogFeed">
-        <div class = 'dogPicBox'><img src = ${feed.dogUrl} alt = "Dog picture" class = "dogPic"></div>
+        <div class ='dogPicBox'><img src = ${entry.dogUrl} alt ="Dog picture" class ="dogFeedPic"></div>
     </div>
+    <div><iframe src="https://giphy.com/embed/IeiONINKriNrbSygju" width="120" height="250" frameBorder="0" class="giphy-embed vsFeedGif" allowFullScreen></iframe></div>
     <div class = "catFeed">
-        <div class = 'catPicBox'><img src = ${feed.catUrl} alt = "cat picture" class = "catPic"></div>
-    </div>
-        `
-    }
+        <div class ='catPicBox'><img src = ${entry.catUrl} alt ="cat picture" class ="catFeedPic"></div>
+    </div>`
+    })
     return html
 }

@@ -16,17 +16,5 @@
             "dogId": "kzcMOroSg",
             "dogUrl": "https://cdn2.thedogapi.com/images/kzcMOroSg.jpg"
         }
-    ],
-    "score": [
-        {
-            "id": 1,
-            "catScore": 1,
-            "dogScore": 1
-        }
     ]
 }
-//put method//
-//const catScore = []
-//const dogScore = []
-// catScore = feed.filter((x) => { return x.catWin})//
-// dogScore = feed.filter((x) => { return !x.catWin})//
