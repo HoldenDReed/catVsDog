@@ -10,6 +10,7 @@ export const displayFeed = () => {
     <div class = "dogFeed">
         <div class ='dogPicBox'><img src = ${entry.dogUrl} alt ="Dog picture" class ="dogFeedPic"></div>
     </div>
+    <div><iframe src="https://giphy.com/embed/IeiONINKriNrbSygju" width="120" height="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></div>
     <div class = "catFeed">
         <div class ='catPicBox'><img src = ${entry.catUrl} alt ="cat picture" class ="catFeedPic"></div>
     </div>
