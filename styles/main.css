@@ -22,7 +22,7 @@ body {
 
 #feed {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 h1 {
@@ -37,6 +37,10 @@ h3 {
  text-align: center;
 }
 
-.giphy-embed{
+.vsGif{
     margin-top: 115px;
+}
+
+.vsFeedGif {
+    margin-top: 70px;
 }
