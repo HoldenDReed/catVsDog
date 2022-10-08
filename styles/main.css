@@ -1,15 +1,11 @@
 .vsImageStyle {
     width: 400px
-};
+}
 
-/* .feedPicImageStyle {
-    width: 330px;
-}; */
-.feedCatPic {
-    width: 330px;
-};
+.catFeedPic {
+    width: 240px;
+}
 
-.feedDogPic {
-    width: 330px;
-};
-
+.dogFeedPic {
+    width: 240px;
+}
