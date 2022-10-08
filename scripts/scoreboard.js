@@ -2,16 +2,14 @@ import { getFeed } from "./database.js";
 
 export const catScores = () => {
     const feed = getFeed()
-    let feedResponse = []
-    feedResponse = feed.filter((x) => {x.catWin})
-    return feedResponse.length
+    const catScore = feed.filter(x => x.catWin === true).length
+    return catScore
     
 }
 export const dogScores = () => {
     const feed = getFeed()
-    let feedResponse = []
-    feedResponse = feed.filter((x) => {!x.catWin})
-    return feedResponse.length
+    const dogScore = feed.filter(x => x.catWin === false).length
+    return dogScore
     
 }
 // console.log(dogScore);
