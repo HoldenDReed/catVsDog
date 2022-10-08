@@ -1,11 +1,46 @@
 .vsImageStyle {
-    width: 400px
+    width: 20em
 }
 
 .catFeedPic {
-    width: 240px;
+    width: 16em;
 }
 
 .dogFeedPic {
-    width: 240px;
+    width: 16em;
+}
+
+body {
+    color: white;
+    background-color: darkgreen;
+}
+
+#votingBlock {
+    display: flex;
+    justify-content: space-around;
+}
+
+#feed {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+ text-align: center;
+}
+
+.vsGif{
+    margin-top: 115px;
+}
+
+.vsFeedGif {
+    margin-top: 70px;
 }
