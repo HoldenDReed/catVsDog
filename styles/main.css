@@ -1,8 +1,15 @@
-.randomCatImage {
+.vsImageStyle {
     width: 400px
 };
 
-.randomDogImage{
-    width: 400px
+/* .feedPicImageStyle {
+    width: 330px;
+}; */
+.feedCatPic {
+    width: 330px;
+};
+
+.feedDogPic {
+    width: 330px;
 };
 

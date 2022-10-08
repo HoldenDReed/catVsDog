@@ -5,7 +5,7 @@ export const randomCat = () => {
     const randomCat = getRandomCat()
     let catHTML = `<div class="catImage">
     <p>${randomCat[0].id}</p>
-    <img src =${randomCat[0].url} alt="randomCat" class="randomCatImage">
+    <img src =${randomCat[0].url} alt="randomCat" id="randomCatImage" class="vsImageStyle">
     </div>` 
 
     return catHTML
@@ -15,7 +15,7 @@ export const randomDog = () => {
     const randomDog = getRandomDog()
     let dogHTML = `<div class="dogImage">
     <p>${randomDog[0].id}</p>
-    <img src =${randomDog[0].url} alt="randomDog" class="randomDogImage">
+    <img src =${randomDog[0].url} alt="randomDog" id="randomDogImage" class="vsImageStyle">
     </div>`
     
     return dogHTML
