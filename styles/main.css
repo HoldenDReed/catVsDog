@@ -22,7 +22,7 @@ body {
 
 #feed {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 h1 {
