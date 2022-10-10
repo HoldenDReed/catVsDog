@@ -3,7 +3,7 @@ const API = "http://localhost:8080"
 const applicationState = {
     dogImage: [],
     catImage: [],
-    feed: []
+    feed: [],
 }
 
 export const fetchCat = async () => {
@@ -52,4 +52,3 @@ export const addNewFeed = async (feed) => {
     document.dispatchEvent(new CustomEvent("stateChanged"))
     return responseJson
   }
- 
