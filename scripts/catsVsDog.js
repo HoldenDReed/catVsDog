@@ -31,14 +31,18 @@ document.addEventListener("click", (e) => {
     let newFeed = {}
     if (e.target.id === "randomCatImage") {
         newFeed = {
-            catUrl: catImage.url,
-            dogUrl: dogImage.url,
+            catUrl: catImage[0].url,
+            catId: catImage[0].id,
+            dogUrl: dogImage[0].url,
+            dogId: dogImage[0].id,
             catWin: true
         }
     } else if (e.target.id === "randomDogImage") {
         newFeed = {
-            catUrl: catImage.url,
-            dogUrl: dogImage.url,
+            catUrl: catImage[0].url,
+            catId: catImage[0].id,
+            dogUrl: dogImage[0].url,
+            dogId: dogImage[0].id,
             catWin: false
         }
     } addNewFeed(newFeed);
