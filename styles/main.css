@@ -1,5 +1,6 @@
 .vsImageStyle {
-    width: 30em;
+    max-width: 30em;
+    height: auto;
 }
 
 .catFeedPic {
