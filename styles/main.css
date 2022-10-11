@@ -66,9 +66,17 @@ font-family: Silkscreen;
 .winner {
     border: 10px green solid;
 }
-
-
 .feedItem {
- display: flex;
- flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catFeed {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dogFeed {
+    display: flex;
+    flex-wrap: wrap;
 }
