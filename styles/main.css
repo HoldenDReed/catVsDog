@@ -1,6 +1,5 @@
 .vsImageStyle {
-    max-width: 30em;
-    height: auto;
+    width: 30em;
 }
 
 .catFeedPic {
@@ -50,4 +49,7 @@ h3 {
 #scoreBoard {
     display: flex;
     justify-content: space-around;
+}
+.winner {
+    border: 10px green solid;
 }

@@ -5,8 +5,8 @@ import { randomCat, randomDog } from "./catsVsDog.js"
 import { catScores, dogScores } from "./scoreboard.js"
 
 const feedContainer = document.getElementById('feed')
-const dogVsContainer = document.getElementById("dogCard") 
-const catVsContainer = document.getElementById("catCard") 
+const dogVsContainer = document.getElementById("dogCard")
+const catVsContainer = document.getElementById("catCard")
 const dogScoreContainer = document.getElementById('catScore')
 const catScoreContainer = document.getElementById('dogScore')
 
