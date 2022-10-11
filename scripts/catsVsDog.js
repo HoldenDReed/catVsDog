@@ -37,10 +37,11 @@ document.addEventListener("click", (e) => {
             dogId: dogImage[0].id,
             catWin: true
         }
-        addNewFeed(newFeed) }
-    })
+        addNewFeed(newFeed)
+    }
+})
 
-    document.addEventListener("click", (e) => {
+document.addEventListener("click", (e) => {
     const catImage = getRandomCat()
     const dogImage = getRandomDog()
     let newFeed = {}
@@ -51,6 +52,7 @@ document.addEventListener("click", (e) => {
             dogUrl: dogImage[0].url,
             dogId: dogImage[0].id,
             catWin: false
-        } 
-        addNewFeed(newFeed) }
-    })
+        }
+        addNewFeed(newFeed)
+    }
+})
