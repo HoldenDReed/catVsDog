@@ -1,6 +1,11 @@
 .vsImageStyle {
     width: 30em;
+    
 }
+.vsImageStyle:hover {
+transform: scale(1.3);
+}
+
 
 .catFeedPic {
     width: 21em;
@@ -18,7 +23,7 @@ body {
 #votingBlock {
     display: flex;
     justify-content: space-around;
-    
+    border-style: groove;
 }
 
 #feed {
@@ -57,9 +62,11 @@ font-family: Silkscreen;
     display: flex;
     justify-content: space-around;
 }
+
 .winner {
     border: 10px green solid;
 }
+
 
 .feedItem {
  display: flex;

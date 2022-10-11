@@ -23,6 +23,30 @@
       "dogId": "tbAyBgK6L",
       "catWin": false,
       "id": 3
+    },
+    {
+      "catUrl": "https://cdn2.thecatapi.com/images/5pl.jpg",
+      "catId": "5pl",
+      "dogUrl": "https://cdn2.thedogapi.com/images/_kiOLmJeJ.jpg",
+      "dogId": "_kiOLmJeJ",
+      "catWin": false,
+      "id": 4
+    },
+    {
+      "catUrl": "https://cdn2.thecatapi.com/images/MTgzNTk1Nw.jpg",
+      "catId": "MTgzNTk1Nw",
+      "dogUrl": "https://cdn2.thedogapi.com/images/Syszjx9Em_1280.jpg",
+      "dogId": "Syszjx9Em",
+      "catWin": true,
+      "id": 5
+    },
+    {
+      "catUrl": "https://cdn2.thecatapi.com/images/cat.jpg",
+      "catId": "cat",
+      "dogUrl": "https://cdn2.thedogapi.com/images/kH2Hf1cLJ.jpg",
+      "dogId": "kH2Hf1cLJ",
+      "catWin": true,
+      "id": 6
     }
   ]
 }
