@@ -4,7 +4,7 @@ import { getRandomCat, getRandomDog, addNewFeed } from "./database.js";
 export const randomCat = () => {
     const randomCat = getRandomCat()
     let catHTML = `<div class="catImage">
-    <p>${randomCat[0].id}</p>
+    <h3>⬇ Click Down Here to Vote for Cat! ⬇</h3>
     <img src =${randomCat[0].url} alt="randomCat" id="randomCatImage" class="vsImageStyle">
     </div>`
 
@@ -14,7 +14,7 @@ export const randomCat = () => {
 export const randomDog = () => {
     const randomDog = getRandomDog()
     let dogHTML = `<div class="dogImage">
-    <p>${randomDog[0].id}</p>
+    <h3>⬇ Click Down Here to Vote for Dog! ⬇</h3>
     <img src =${randomDog[0].url} alt="randomDog" id="randomDogImage" class="vsImageStyle">
     </div>`
 
@@ -37,14 +37,20 @@ document.addEventListener("click", (e) => {
             dogId: dogImage[0].id,
             catWin: true
         }
-    } else if (e.target.id === "randomDogImage") {
+        addNewFeed(newFeed) }
+    })
+
+    document.addEventListener("click", (e) => {
+    const catImage = getRandomCat()
+    const dogImage = getRandomDog()
+    let newFeed = {}
+    if (e.target.id === "randomDogImage") {
         newFeed = {
             catUrl: catImage[0].url,
             catId: catImage[0].id,
             dogUrl: dogImage[0].url,
             dogId: dogImage[0].id,
             catWin: false
-        }
-    } addNewFeed(newFeed);
-}
-);
+        } 
+        addNewFeed(newFeed) }
+    })
