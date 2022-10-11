@@ -19,6 +19,7 @@ body {
 #votingBlock {
     display: flex;
     justify-content: space-around;
+    
 }
 
 #feed {
@@ -29,13 +30,19 @@ body {
 
 h1 {
     text-align: center;
+    font-family: Silkscreen;
 }
 
 h2 {
+    font-family: Silkscreen;
     text-align: center;
+    text-decoration-color: black;
+    border: 0ch;
+    border-color: black;
 }
 
 h3 {
+font-family: Silkscreen;
  text-align: center;
 }
 
