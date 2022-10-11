@@ -3,13 +3,15 @@ import { getFeed } from "./database.js";
 export const catScores = () => {
     const feed = getFeed()
     const catScore = feed.filter(x => x.catWin === true).length
-    return catScore
+    const catScoreHtml = `<h2>Cat votes: ${catScore}</h2>`
+    return catScoreHtml
     
 }
 export const dogScores = () => {
     const feed = getFeed()
     const dogScore = feed.filter(x => x.catWin === false).length
-    return dogScore
+    const dogScoreHtml = `<h2>Dog Votes: ${dogScore}</h2>`
+    return dogScoreHtml
     
 }
 // console.log(dogScore);
