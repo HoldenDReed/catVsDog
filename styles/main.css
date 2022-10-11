@@ -12,7 +12,7 @@
 
 body {
     color: white;
-    background-color: darkgreen;
+    background-image: url("bricksBackground.jpg");
 }
 
 #votingBlock {
