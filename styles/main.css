@@ -1,13 +1,14 @@
 .vsImageStyle {
-    width: 30em
+    max-width: 30em;
+    height: auto;
 }
 
 .catFeedPic {
-    width: 16em;
+    width: 21em;
 }
 
 .dogFeedPic {
-    width: 16em;
+    width: 21em;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
 
 #feed {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -43,4 +45,9 @@ h3 {
 
 .vsFeedGif {
     margin-top: 70px;
+}
+
+#scoreBoard {
+    display: flex;
+    justify-content: space-around;
 }
