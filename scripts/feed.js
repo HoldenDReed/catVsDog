@@ -8,9 +8,11 @@ export const displayFeed = () => {
     feed.forEach(entry => {
         html += `
     <div class = "feedItem">
+    <div class = "dogFeed">
         <div class ='dogPicBox'><img src = ${entry.dogUrl} alt ="Dog picture" class ="dogFeedPic ${entry.catWin ? '' : 'winner'}"></div>
     <div><iframe src="https://giphy.com/embed/IeiONINKriNrbSygju" width="120" height="250" frameBorder="0" class="giphy-embed vsFeedGif" allowFullScreen></iframe></div>
         <div class ='catPicBox'><img src = ${entry.catUrl} alt ="cat picture" class ="catFeedPic ${entry.catWin ? 'winner' : ''}"></div>
+    </div>
     </div>`
     })
     return html

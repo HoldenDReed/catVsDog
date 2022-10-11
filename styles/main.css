@@ -67,3 +67,8 @@ font-family: Silkscreen;
     border: 10px green solid;
 }
 
+
+.feedItem {
+ display: flex;
+ flex-wrap: wrap;
+}
