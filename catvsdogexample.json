@@ -1,20 +1,28 @@
 {
-    "feed": [
-        {
-            "id": 1,
-            "catId": "JVITS8pXF",
-            "catUrl": "https://cdn2.thecatapi.com/images/JVITS8pXF.jpg",
-            "catWin": false,
-            "dogId": "4ZHgQqnSr",
-            "dogUrl": "https://cdn2.thedogapi.com/images/4ZHgQqnSr.jpg"
-        },
-        {
-            "id": 2,
-            "catId": "0XYvRd7oD",
-            "catUrl": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
-            "catWin": true,
-            "dogId": "kzcMOroSg",
-            "dogUrl": "https://cdn2.thedogapi.com/images/kzcMOroSg.jpg"
-        }
-    ]
+  "feed": [
+    {
+      "id": 1,
+      "catId": "JVITS8pXF",
+      "catUrl": "https://cdn2.thecatapi.com/images/JVITS8pXF.jpg",
+      "catWin": false,
+      "dogId": "4ZHgQqnSr",
+      "dogUrl": "https://cdn2.thedogapi.com/images/4ZHgQqnSr.jpg"
+    },
+    {
+      "id": 2,
+      "catId": "0XYvRd7oD",
+      "catUrl": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+      "catWin": true,
+      "dogId": "kzcMOroSg",
+      "dogUrl": "https://cdn2.thedogapi.com/images/kzcMOroSg.jpg"
+    },
+    {
+      "catUrl": "https://cdn2.thecatapi.com/images/ch1.gif",
+      "catId": "ch1",
+      "dogUrl": "https://cdn2.thedogapi.com/images/tbAyBgK6L.jpg",
+      "dogId": "tbAyBgK6L",
+      "catWin": false,
+      "id": 3
+    }
+  ]
 }

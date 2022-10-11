@@ -51,4 +51,4 @@ export const addNewFeed = async (feed) => {
     const responseJson = await response.json()
     document.dispatchEvent(new CustomEvent("stateChanged"))
     return responseJson
-  }
+}
